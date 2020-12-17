@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Weather Information</title>
+</head>
+    <script>
+        function abc()
+        {
+            var x=document.getElementById("t1").value;
+            window.location.href="https://api.openweathermap.org/data/2.5/weather?q="+x+"d845da7d442156e22167052ca3ea2533"
+        }
+    </script>
+
+<body style="background-color: whitesmoke">
+    <center>
+    <img src="weather.gif">
+        <br>
+        <h1>Weather Information System</h1>
+        <lavel>Enter City Name</lavel>
+    <input id="t1" style="height: 25;width: 170" placeholder="City Name" type="text"><br>
+    <br>
+        <button style="height: 30;width: 170" onclick="abc()">Get Current Weather Info</button>
+       <br>
+        <br>
+        
+     <button><a href="welcome.html">Back</a></button>
+    
+    
+    
+    </center>    
+    
+    </body>
+</html>
